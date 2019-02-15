@@ -1,0 +1,260 @@
+body{
+    margin: 0 auto;
+    background-color: #1a53ff;
+}
+
+/**********************Start of Nav************************/
+
+.nav-bar{
+    height:70px;
+    width:100%;
+    background-color:rgb(255, 0, 0);/*this is red green*/
+    position:fixed;
+    top:0;
+}
+
+/*.psc-logo{*/
+/*    float:0 auto;*/
+/*    height:500px;*/
+/*    width:100%;*/
+/*    margin-top:100px;*/
+/*}*/
+
+.logo{
+    height:50px;
+    width:50px;
+    float:center;
+    margin-top:7px;
+}
+
+.list{
+    float:right;
+    margin-right:20px;
+}
+
+.list-item{
+    list-style-type:none;
+    float:left;
+    margin:10px;
+    background-color:#99c2ff; /* */
+    display:inline-block;
+    height:25px;
+    width:60px;
+    border: 3px solid #000000; /*border is black*/
+    border-radius:20px;
+    padding:5px 0px 0px 20px;
+}
+
+.list-item:hover{
+    background-color:white;
+}
+
+.list-item a:hover{
+    color:#000;
+}
+
+
+.anchor{
+    margin-top:8px;
+    margin-left:8px;
+    color:;
+    text-decoration:none;
+}
+/***********************End of Nav********************/
+
+/***********************Start of Hero Section****************/
+.h1{
+    font: bold;
+    color:#ff3300;
+}
+
+.hero{
+    background-image:url('../image/psclogo.jpg');
+    background-repeat:no-repeat;
+    height:450px;
+    width:100%;
+    position:inherit;
+    top:50px;
+}
+
+.hero-background{
+    background-color: white;
+    position:absolute;
+    bottom:343px;
+    left:40%;
+    border:6px solid #0000ff;
+    border-radius:10px;
+    box-shadow:8px 8px #ff0000;
+}
+
+.hero-text{
+    background-color:#0000ff;
+    color:#ff0000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    height:600px;
+    width:100%;
+}
+
+.box{
+    height:550px;
+    width:45%;
+    border:3px solid #00061a;
+    float:left;
+    margin:75px 25px 25px 25px;
+    /*overflow: hidden;*/
+}
+
+.ron{
+    background-image: inherit;
+    height:50%;
+    width:50%;
+}
+
+.team{
+    background-image: inherit;
+    height:50%;
+    width:50%;
+    float:right;
+}
+
+.heather{
+    background-image:inherit;
+    height:49%;
+    width:50%;
+    float:bottom;
+}
+
+.sunday{
+    background-image:inherit;
+    height:49%;
+    width:50%;
+    float:bottom;
+    float: right;
+}
+
+.main-p{
+    background:white;
+    text-align:justify;
+    padding:25px;
+    color:black;
+}
+
+/**********************End of Section********************/
+
+/**********************Start of Footer**********************/
+footer{
+    background-color:rgb(255, 0, 0);
+    height:70px;
+    clear:both;
+}
+
+/*.footer-col{*/
+/*    width:33%;*/
+/*    float:left;*/
+}
+/*/.footer-col{*/
+/*    position:relative;*/
+/*    text-align: center;*/
+/*    height:80px;*/
+/*    width:25%;*/
+/*    border:3px solid #00061a;*/
+/*    border-radius:15px;*/
+/*    float:left;*/
+/*    margin:75px 25px 25px 25px;*/
+/*}*/
+
+.footer-button .social .copyright{
+    /*margin-top:18px;*/
+    /*margin-left:70px*/
+    display:block;
+    text-align: center;
+}
+
+.footer-button{
+    margin-top: auto;
+}
+
+.input{
+    height:30px;
+    width:170px;
+}
+
+
+.button{
+    height:30px;
+    width:60px;
+    text-align: center;
+}
+
+.fab{
+    font-size:2em;
+    margin-top:18px;
+    margin:0 auto;
+}
+
+.fa-facebook-square{
+    color:#4267b2;
+}
+
+.fa-instagram{
+    color:#231F20;
+}
+
+/*********** Sart of About CSS********/
+
+.container{
+    height:700px;
+    width:100%;
+    margin-top: 92px;
+}
+
+.column{
+    height:519px;
+    width:30%;
+    border: 6px solid #ff0000;
+    float:left;
+    margin-left:28px;
+}
+
+.shelby{
+    height:300px;
+    width:370px;
+    display:block;
+    margin:0 auto;
+}
+
+audio{
+    display:block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/***********Start of Contact CSS*********/
+
+.contact-container{
+    width:100%;
+    height:700px;
+    margin-top:90px;
+}
+
+.contact-col{
+    width:45%;
+    border:3px solid #00061a;
+    float:left;
+    margin-left:15px;
+}
+
+.map{
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    padding:8px;
+}
+
+.form{
+    display:block;
+    text-align:center;
+}
