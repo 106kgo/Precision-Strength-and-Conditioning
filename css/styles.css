@@ -247,12 +247,12 @@ audio{
     margin-left:15px;
 }
 
-/*.map{*/
-/*    display:block;*/
-/*    margin:0 auto;*/
-/*    text-align: center;*/
-/*    padding:8px;*/
-/*}*/
+.map{
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    padding:8px;
+}
 
 .form{
     display:block;
